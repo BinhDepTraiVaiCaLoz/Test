@@ -1,0 +1,41 @@
+ul {
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  border: 1px solid;
+}
+.menu li {
+  position: relative;
+  margin: 3px;
+  padding: 5px;
+}
+.menu li a {
+  text-decoration: none;
+}
+.menu li .dropbox {
+  position: absolute;
+  list-style: none;
+  display: flex;
+  border: 1px solid;
+  padding-left: 0;
+}
+.menu li:hover {
+  cursor: pointer;
+}
+
+.tit {
+  padding-left: 0;
+  text-align: center;
+}
+.tit li {
+  white-space: nowrap;
+}
+
+.category {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>NhacCuaTui Fake</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body>
+        <div class="dropbox-content">
+            <ul class="menu">
+                <li class="chosen">
+                    <a>Bài Hát</a>
+                    <ul class="dropbox">
+                        <li>
+                            <ul class="tit">
+                                <li><a class="category">Việt Nam</a></li>
+                                <li><a>Nhạc Trẻ</a></li>
+                                <li><a>Trữ Tình</a></li>
+                                <li><a>Remix Việt</a></li>
+                                <li><a>Rap Việt</a></li>
+                                <li><a>Tiền Chiến</a></li>
+                                <li><a>Nhạc Trịnh</a></li>
+                                <li><a>Rock Việt</a></li>
+                                <li><a>Cách Mạng</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="tit">
+                                <li><a class="category">Âu Mỹ</a></li>
+                                <li><a>Pop</a></li>
+                                <li><a>Rock</a></li>
+                                <li><a>Electronica/Dance</a></li>
+                                <li><a>R&B/HipHop/Rap</a></li>
+                                <li><a>Blues/Jazz</a></li>
+                                <li><a>Country</a></li>
+                                <li><a>Latin</a></li>
+                                <li><a>Indie</a></li>
+                                <li><a>Âu Mỹ khác</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="tit">
+                                <li><a class="category">Châu Á</a></li>
+                                <li><a>Nhạc Hàn</a></li>
+                                <li><a>Nhạc Hoa</a></li>
+                                <li><a>Nhạc Nhật</a></li>
+                                <li><a>Nhạc Thái</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="tit">
+                                <li><a class="category">Khác</a></li>
+                                <li><a>Thiếu Nhi</a></li>
+                                <li><a>Không Lời</a></li>
+                                <li><a>Beat</a></li>
+                                <li><a>Thể Loại Khác</a></li>
+                                <li><a>Tui Hát</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a>Playlist</a></li>
+                <li><a>Tuyển Tập</a></li>
+                <li><a>Video</a></li>
+                <li><a>BXH</a></li>
+                <li><a>Chủ Đề</a></li>
+                <li><a>Top 100</a></li>
+            </ul>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(".menu .chosen").hover(function() {
+                    $(this).find(".dropbox:first").slideDown(500);
+                }, function() {
+                    $(this).find(".dropbox:first").hide(300);
+                });
+            });
+        </script>
+    </body>
+</html>
